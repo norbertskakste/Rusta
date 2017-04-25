@@ -30,3 +30,9 @@ enum ParsingPropertiesMode {
     Manual, // Reads & parses specified events
     Callbacks, // Reads & parses on callback registration
 }
+
+struct ParsingSettings {
+    file_read_memory_settings: FileReadMemorySettings,
+    file_read_concurrency_settings: FileReadConcurrencySettings,
+    parsing_properties_mode: ParsingPropertiesMode,
+}
