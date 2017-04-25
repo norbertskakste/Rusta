@@ -1,0 +1,10 @@
+[package]
+name = "rusta"
+version = "0.0.1"
+authors = ["Norberts Kakste <kakste@norber.tech> [github: norberts.kakste]"]
+description = "Dota 2 replay parser"
+keywords = ["dota", "dota 2", "dota2", "replay", "parser", "protobuf"]
+categories = ["encoding", "parsing", "games"]
+license = "Apache-2.0"
+
+[dependencies]
